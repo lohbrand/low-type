@@ -1,0 +1,6 @@
+{
+  "ban-eval-calls": [],
+  "ban-function-calls": [],
+  "ban-trustedtypes-createpolicy": [],
+  "ban-worker-calls": []
+}

@@ -1,0 +1,49 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll.eslint": true
+  },
+  "[html]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.stylelint": false
+    }
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.formatOnSave": true
+  },
+  // "json.schemas": [
+  //   {
+  //     "fileMatch": ["/*.pca.json"],
+  //     "url": "./internals/data/pca/marks.schema.json"
+  //   }
+  // ],
+  "conventionalCommits.scopes": ["milestone"],
+  "cSpell.words": [
+    "TSES",
+    "mailmap"
+  ],
+  "jest.jestCommandLine": "jest",
+  "jest.debugMode": true,
+  "jest.enableSnapshotPreviews": true,
+  "jest.autoRun": {
+    "watch": false,
+    "onSave": "test-file",
+    "onStartup": ["all-tests"]
+  },
+  "ponicode.testSettings.testLocation.path": "{rootDir}/__tests__/{filePath}/{fileName}.test.{ext}",
+  "ponicode.watchMode": true,
+  "ponicode.testSettings.testLocation.locationType": "In folder __tests__ at workspace root",
+  "ponicode.alwaysUseBabel": true
+}

@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "sourceMap": false,
+    "outDir": "../out/project",
+    "target": "es2017",
+    "types": [],
+    "plugins": [
+      {
+        "name": "tsec",
+        "exemptionConfig": "./tsec.exemptions.json"
+      }
+    ]
+  }
+}

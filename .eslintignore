@@ -1,0 +1,15 @@
+# distribution
+dist/
+build/
+
+# configs
+*.config*
+
+# settings
+setupTest.js
+
+/client
+!/test/client
+coverage
+node_modules
+.history/
